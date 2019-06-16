@@ -1,0 +1,20 @@
+{
+  "name": "next-webpack-alias",
+  "version": "1.0.0",
+  "description": "repro for next.js issue with webpack alias",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.1.1",
+    "clsx": "^1.0.4",
+    "next": "^8.1.0",
+    "notistack": "^0.8.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  }
+}
