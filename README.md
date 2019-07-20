@@ -9,6 +9,10 @@ $ yarn dev
 # no crash
 # reload page (f5)
 # crash Error: Cannot find module 'classnames'
+
+# or 
+$ yarn build && yarn next export
+# { Error: Cannot find module 'classnames'
 ```
 
 ## what did we do?
