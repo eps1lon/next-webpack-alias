@@ -9,12 +9,15 @@
     "clsx": "^1.0.4",
     "next": "^9.0.2",
     "notistack": "^0.8.6",
+    "patch-package": "^6.1.2",
+    "postinstall-postinstall": "^2.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "patch-package"
   }
 }
